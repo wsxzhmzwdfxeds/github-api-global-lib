@@ -1,26 +1,26 @@
 {
-    "fields": {
-        "project": {
-            "key": "$key"
+    \"fields\": {
+        \"project\": {
+            \"key\": \"$key\"
         },
-        "summary": "$summary",
-        "description": {
-            "content": [
+        \"summary\": \"$summary\",
+        \"description\": {
+            \"content\": [
                 {
-                    "content": [
+                    \"content\": [
                         {
-                            "text": "$description",
-                            "type": "text"
+                            \"text\": \"$description\",
+                            \"type\": \"text\"
                         }
                     ],
-                    "type": "paragraph"
+                    \"type\": \"paragraph\"
                 }
             ],
-            "type": "doc",
-            "version": 1
+            \"type\": \"doc\",
+            \"version\": 1
         },
-        "issuetype": {
-            "name": "$issueTypeName"
+        \"issuetype\": {
+            \"name\": \"$issueTypeName\"
         }
-    }
+      }
 }
